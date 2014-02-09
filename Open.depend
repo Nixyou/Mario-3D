@@ -1,6 +1,13 @@
 # depslib dependency file v1.0
-1391947052 source:c:\users\nixyou\desktop\open\main.cpp
-	"main.h"
+1391954813 source:c:\users\nixyou\desktop\open\main.cpp
+	<SDL/SDL.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<cstdlib>
+	<math.h>
+	<assert.h>
+	"dessiner.h"
+	"sdlglutils.h"
 
 1341010376 c:\program files (x86)\codeblocks\mingw\include\stdlib.h
 	<_mingw.h>
@@ -264,14 +271,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1391945718 c:\users\nixyou\desktop\open\main.h
-	<SDL/SDL.h>
-	<GL/gl.h>
-	<GL/glu.h>
-	<cstdlib>
-	<math.h>
-	<assert.h>
-	"sdlglutils.h"
+1391953618 c:\users\nixyou\desktop\open\main.h
 
 1341010374 c:\program files (x86)\codeblocks\mingw\include\math.h
 	<_mingw.h>
@@ -294,4 +294,25 @@
 
 1341010370 c:\program files (x86)\codeblocks\mingw\include\assert.h
 	<_mingw.h>
+
+1391952123 source:c:\users\nixyou\desktop\open\draw.cpp
+	"main.h"
+
+1391954927 source:c:\users\nixyou\desktop\open\dessiner.cpp
+	<GL/gl.h>
+	<GL/glu.h>
+	<assert.h>
+	"dessiner.h"
+	"sdlglutils.h"
+
+1391952532 c:\users\nixyou\desktop\open\dessiner.cpp
+	<SDL/SDL.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<cstdlib>
+
+1391954962 c:\users\nixyou\desktop\open\dessiner.h
+	<SDL/SDL.h>
+	<GL/gl.h>
+	<GL/glu.h>
 
