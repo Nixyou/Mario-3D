@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1391944448 source:c:\users\nixyou\desktop\open\main.cpp
+1391947052 source:c:\users\nixyou\desktop\open\main.cpp
 	"main.h"
 
 1341010376 c:\program files (x86)\codeblocks\mingw\include\stdlib.h
@@ -249,11 +249,12 @@
 	<GL/gl.h>
 	<SDL/SDL.h>
 
-1147358634 source:c:\users\nixyou\desktop\open\sdlglutils.cpp
+1391946458 source:c:\users\nixyou\desktop\open\sdlglutils.cpp
 	"sdlglutils.h"
 	<SDL/SDL.h>
 	<SDL/SDL_image.h>
 	<GL/glu.h>
+	<assert.h>
 	<cstring>
 	<cstdlib>
 
@@ -263,7 +264,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1391896910 c:\users\nixyou\desktop\open\main.h
+1391945718 c:\users\nixyou\desktop\open\main.h
 	<SDL/SDL.h>
 	<GL/gl.h>
 	<GL/glu.h>

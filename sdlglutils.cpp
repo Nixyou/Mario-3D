@@ -2,9 +2,11 @@
 #include <SDL/SDL.h>
 #include <SDL/SDL_image.h>
 #include <GL/glu.h>
+#include <assert.h>
 
 #include <cstring>
 #include <cstdlib>
+#define GA(param) assert(param)
 
 SDL_Surface * flipSurface(SDL_Surface * surface);
 

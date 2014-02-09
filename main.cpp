@@ -280,12 +280,12 @@ int main(int argc, char *argv[]){
     gluPerspective(70,(double)800/600,1,1000); //70 base, 90 half life recule, 50 zoom
 
     glEnable(GL_DEPTH_TEST); // pour que ce qui est devant reste devant
-    glEnable(GL_TEXTURE_2D);
+    //glEnable(GL_TEXTURE_2D);
 
-    GA(textur[0] = loadTexture("img/stainedglass05.jpg")); // load txtr
-    GA(textur[1] = loadTexture("herbe.png")); // load txtr
-    //textur[2] = loadTexture("img/carapacer.png"); // load txtr
-    //textur[3] = loadTexture("img/ciel.png");
+    textur[0] = loadTexture("img/stainedglass05.jpg"); // load txtr
+    textur[1] = loadTexture("herbe.png"); // load txtr
+    textur[2] = loadTexture("img/carapacer.png"); // load txtr
+    textur[3] = loadTexture("img/ciel.png");
 
     init();
 
